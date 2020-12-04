@@ -1,6 +1,9 @@
 let convictions = []
-
-export const useConvictions = () => convictions.slice()
+console.log("hello")
+export const useConvictions = () => {
+  console.log(convictions)
+  return convictions.slice()
+}
 
 export const getConvictions = () => {
   return fetch("https://criminals.glassdale.us/crimes")
