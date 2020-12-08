@@ -1,5 +1,4 @@
 let convictions = []
-console.log("hello")
 export const useConvictions = () => {
   console.log(convictions)
   return convictions.slice()
