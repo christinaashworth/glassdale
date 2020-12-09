@@ -3,7 +3,7 @@ import { Criminal } from "./criminal.js"
 import { useConvictions } from "../convictions/convictionProvider.js"
 import { useOfficers } from "../officers/OfficerDataProvider.js"
 
-const contentTarget = document.querySelector(".criminalsContainer")
+const contentTarget = document.querySelector(".criminal")
 const eventHub = document.querySelector(".container")
 
 
