@@ -1,7 +1,7 @@
 import { useCriminals } from "./criminalDataProvider.js"
 import { AlibiHTMLConverter } from "./alibi.js"
 
-const contentTarget = document.querySelector(".associates")
+const contentTarget = document.querySelector(".associate__info")
 const eventHub = document.querySelector(".criminalsContainer")
 
 
@@ -14,15 +14,7 @@ eventHub.addEventListener('alibiClicked', event => {
 
       const associates = chosenCriminals.known_associates
       contentTarget.innerHTML = associates.map(associate => { return AlibiHTMLConverter(associate) }).join("")
-
-      const render = (associates) => {
-        for (const perp of associates) {
-          contentTarget.innerHTML = perp
-        }
-      }
-      
-      render(associateList)
-  } 
+}
 }
 )
 

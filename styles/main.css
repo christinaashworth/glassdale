@@ -1,14 +1,18 @@
-.criminal {
-  border: 1px dotted;
-  flex-basis: 25%;
-  margin: 12px 0;
-  padding: 0 8px 12px;
-}
-
 .criminalsContainer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.criminal {
+  flex-basis: 25%;
+  justify-content: space-around;
+}
+
+.criminal__info {
+  border: 1px dotted;
+  margin: 12px 0;
+  padding: 0 8px 12px;
 }
 
 .filters {
