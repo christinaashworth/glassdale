@@ -15,19 +15,6 @@ eventHub.addEventListener("noteStateChanged", () => {
   NoteList()
 })
 
-eventHub.addEventListener("click", clickEvent => {
-    if (clickEvent.target.id.startsWith("deleteNote--")) {
-        const [prefix, noteId] = clickEvent.target.id.split("--")
-
-        /*
-            Invoke the function that performs the delete operation.
-
-            Once the operation is complete you should THEN invoke
-            useNotes() and render the note list again.
-        */
-       deleteNote(noteId)
-    }
-})
 
 const render = (noteArray, criminals) => {
     const allNotesConvertedToStrings = noteArray.map((note) => {
