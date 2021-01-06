@@ -3,30 +3,30 @@
     {
       "author": "christina",
       "text": "yo christina sus",
-      "suspect": "christina",
+      "criminalId": 1,
       "timestamp": 1607449145308,
       "id": 1
     },
     {
       "author": "jfieowijf",
       "text": "weoijf",
-      "suspect": "wefioji",
+      "criminalId": 42,
       "timestamp": 1607461057658,
       "id": 2
     },
     {
       "author": "koikgr",
       "text": "reijfwoirj",
-      "suspect": "eoijfo",
+      "criminalId": 80,
       "timestamp": 1607461133153,
       "id": 3
     },
     {
-      "author": "witch doctor",
-      "text": "witch doctor stuff",
-      "suspect": "witch",
-      "timestamp": 1607461263443,
-      "id": 4
+      "author": "buster bluth",
+      "text": "you can always tell a milford man",
+      "criminalId": 17,
+      "timestamp": 1609951092333,
+      "id": 5
     }
   ]
 }
